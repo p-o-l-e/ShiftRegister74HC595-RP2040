@@ -12,7 +12,7 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 
-#define _74HC595_SIZE 2
+#define _74HC595_SIZE 2 // number of shiftregisters stacked in serial
 
 
 typedef struct 
